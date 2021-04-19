@@ -40,3 +40,7 @@ for  ( var  i  =  0 ;  i  ! =  usuarios . comprimento  -  1 ;  i ++ )  {
 Math . floor ( Math . random ( )  *  100  +  1 )
 
 //--------------------------------------------------------------------------
+
+//Coloca o numero em formato de dinheiro
+
+.toLocaleString('pt-br',{style:'currency',currency: 'BRL'})
