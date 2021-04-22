@@ -9,7 +9,7 @@ vezes foi chutado para acertar
 
 var flag = false
 alert("Bem vindo ao joguinho...")
-do {    
+do {
     if (flag !== false) {
         alert("Vamos lá, mas dessa vez digite a quantidade certa, blz? ")
     }
@@ -53,10 +53,11 @@ do {
                 }
             }
         }
-        if(usuarios[0].qtTentativas == usuarios[1].qtTentativas){
+        if (usuarios[0].qtTentativas == usuarios[1].qtTentativas) {
             alert("Ocorreu um empate entre " + usuarios[0].nome + " e " + usuarios[1].nome)
-        }else{
-        alert(`Parabéns ${usuarios[0].nome} Você ganhou!!! `)}
+        } else {
+            alert(`Parabéns ${usuarios[0].nome} Você ganhou!!! `)
+        }
         console.log("O Rank foi: ")
         console.log(usuarios)
 
