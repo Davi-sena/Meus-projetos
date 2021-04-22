@@ -54,7 +54,7 @@ do {
             }
         }
         if(usuarios[0].qtTentativas == usuarios[1].qtTentativas){
-            alert("Ocorreu um empate entre" + usuarios[0].qtTentativas + " e " + usuarios[1].qtTentativas)
+            alert("Ocorreu um empate entre " + usuarios[0].nome + " e " + usuarios[1].nome)
         }else{
         alert(`Parabéns ${usuarios[0].nome} Você ganhou!!! `)}
         console.log("O Rank foi: ")
